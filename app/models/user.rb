@@ -13,5 +13,5 @@ class User < ApplicationRecord
       self.stripe_customer_token = customer.id
       save!
     end
-  end  
+  end
 end
